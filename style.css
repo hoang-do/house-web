@@ -1,0 +1,491 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+#content {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    padding: 0 25px 25px;  
+}
+.fa-house{
+    color: blue;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.sidebar{
+    width: 13%;
+    height: 100%;
+    background-color: #edeff0;
+    top: 0;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 13px;
+    text-transform: none;
+}
+
+.icon{
+    margin-right: 20px;
+    color: black;
+}
+
+
+.sidebar li{
+    margin: 0 10px 10px 10px;
+    border-radius: 10px;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    color: black;
+    
+}
+
+.bar li:hover{
+    background: rgb(65, 166, 255);
+    
+    border-width: auto;
+    padding-right: 45px;
+}
+
+#container{
+    width: 87%;
+    position: absolute;
+    height: 100%;
+    margin-left: 13%;
+}
+.group1{
+    width: 73%;
+    display: inline-block;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+}
+
+.title-left{
+    width: 80%;
+    padding: 5px 25px 0 25px;
+}
+
+.title-body{
+    color: black;
+}
+
+.title-right{
+    width: 20%;
+    
+    padding: 25px 25px 25px 20px;
+}
+
+.convert{
+    color: black;
+    border-radius: 10px;
+    background-color: #edeff0;
+    display: flex;
+    
+    position: fixed;
+    padding: 8px 15px;
+}
+
+.buy{
+    background-color: white;
+    margin-right: 15px;
+    padding: 0 15px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.rent{  
+    color:rgb(150, 149, 149);
+    font-weight:500;
+}
+
+.search{
+    
+    padding: 0 25px
+}
+
+.title-search{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.address{
+    display: flex;
+    
+}
+
+.location{
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+.name-location{
+    margin-left: 13px;
+}
+
+.location-address{
+    display: flex;
+    border: 1px solid;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.address-name{
+    margin-left: 10px
+}
+
+
+.home-name{
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+.btn1 {
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    background-color: #063ef3;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.btn2 {
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.figure {
+    padding: 10px 20px;
+    border: 1px solid;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.house{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.house-info {
+    width: 32%;
+}
+
+.house-detail {
+    border: 1px solid #edeff0;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.house-img{
+    padding: 0px 0px 5px 3px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.house-price {
+    list-style-type: none;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon1{
+    margin-right: 5px;
+}
+
+.room{
+    font-size:14px
+}
+
+.room-name {
+    color: #adb5bd;
+}
+
+.house-address {
+    list-style-type: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0 10px;
+    border: 1px solid #fff
+}
+
+.house-address:hover{
+    color: #fff;
+    background-color: black
+}
+
+.house-address-detail{
+    display: flex;
+    padding: 4px 0;
+}
+
+.icon-address-house{
+    margin-top: 10px;
+}
+
+.icon-address {
+    font-size: 20px
+}
+
+.place {
+    padding: 0 0px 0 15px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.btn-view {
+    padding: 0 25px;
+    border: 1px solid #ffff;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.footer {
+    padding: 0 25px;
+    margin-top: 10px;
+}
+
+.title-footer {
+
+}
+
+.name-title-footer {
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.content-footer {
+    display:flex;
+    
+}
+
+.content-footer-left {
+    padding-right: 5px;
+}
+
+.content-footer-right {
+
+}
+
+.cardd-footer{
+    padding-bottom: 5px;
+}
+
+.card-info-footer{
+    display: flex;
+    border: 1px solid #edeff0;
+    padding: 5px 0 5px 10px;
+    border-radius: 10px;
+}
+
+.card-footer-image{
+    width: 25%;
+}
+
+.card-info{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.title-card{
+    display: block;
+    font-weight: 700;
+}
+
+.price-card{
+    color: blue;
+}
+
+.info-footer{
+    display: flex;
+    font-size: small;
+}
+
+.card-room{
+    margin-right: 15px;
+}
+
+.icon-card{
+    margin-right: 5px;
+}
+
+.footer-address{
+    display: flex;
+    font-size: small;
+}
+
+.footer-address-card{
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+
+
+.group2{
+    width: 27%;
+    height: 100%;
+    float: right;
+    background-color: #edeff0;
+    padding: 20px 25px 0 25px;
+}
+
+.header-group2{
+    display: flex;
+    list-style-type: none;
+    float: right;
+}
+
+.icon-group2{
+    margin-left: 25px;
+}
+
+.body-group2{
+    display: inline-block;
+    
+}
+
+.title-group2{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.content-group2{
+
+}
+
+.image-group2{
+    display: flex;
+    padding: 15px 0;
+}
+
+.image-group2-left{
+    width: 65%;
+    padding-right: 10px;
+}
+
+.image-group2-right{
+    width: 45%;
+}
+
+.image-group2-right-top{
+    padding: 0 0 5px 0;
+}
+
+.image-group2-right-bottom{
+    padding: 5px 0 0 0;
+}
+
+.info-group2{
+
+}
+
+.card-info-group2{
+    list-style-type: none;
+}
+
+.title-card-group2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.info-group2-detail{
+    display:flex;
+}
+
+.card-room-group2{
+    margin-right: 20px;
+}
+
+.icon-card-group2{
+    margin-right: 5px;
+}
+
+.address-group2{
+    display: flex;
+    margin-top: 10px;
+}
+
+.address-card-group2{
+    margin-left: 5px;
+    font-weight: 500
+}
+
+.description{
+    padding: 10px 0
+}
+
+.description-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.description-content{
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.map{
+
+}
+
+.payment{
+    margin-top: 10px;
+}
+
+.btn-group2{
+    width: 100%;
+    padding: 5px 0;
+    color: white;
+    background-color: blue;
+    border: 1px solid;
+    font-weight: 600;
+    border-radius: 10px;
+}
